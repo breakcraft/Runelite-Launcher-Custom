@@ -5,7 +5,7 @@ set -e
 PACKR_VERSION="runelite-1.7"
 PACKR_HASH="f61c7faeaa364b6fa91eb606ce10bd0e80f9adbce630d2bae719aef78d45da61"
 
-SIGNING_IDENTITY="Developer ID Application"
+SIGNING_IDENTITY="F60F427F725F23E7224489A912A0D1661A129C48"
 
 source .jdk-versions.sh
 
