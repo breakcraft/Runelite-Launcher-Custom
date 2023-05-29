@@ -61,6 +61,6 @@ if ! hdiutil imageinfo native-osx/Elvarg-x64.dmg | grep -q "Format: UDBZ" ; then
 fi
 
 # Notarize app
-if xcrun notarytool submit native-osx/Elvarg-x64.dmg --wait --keychain-profile "AC_PASSWORD" ; then
+if xcrun notarytool submit native-osx/Elvarg-x64.dmg --wait --keychain-profile "07c13e1cb5" ; then
     xcrun stapler staple native-osx/Elvarg-x64.dmg
 fi

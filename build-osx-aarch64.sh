@@ -55,6 +55,6 @@ create-dmg native-osx-aarch64/Elvarg.app native-osx-aarch64/ || true
 mv native-osx-aarch64/Elvarg\ *.dmg native-osx-aarch64/Elvarg-aarch64.dmg
 
 # Notarize app
-if xcrun notarytool submit native-osx-aarch64/Elvarg-aarch64.dmg --wait --keychain-profile "AC_PASSWORD" ; then
+if xcrun notarytool submit native-osx-aarch64/Elvarg-aarch64.dmg --wait --keychain-profile "07c13e1cb5" ; then
    xcrun stapler staple native-osx-aarch64/Elvarg-aarch64.dmg
 fi
